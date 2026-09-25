@@ -36,7 +36,38 @@
 
 ## 사진
 
-사진은 Unsplash·Pexels 사진을 쓴 공개 무료 템플릿 저장소(Colorlib 템플릿 등)에서 가져와 자리에 맞게 잘라 넣었습니다. 포트폴리오 예시용이므로, 실제 고객 사이트를 만들 때는 고객이 준 사진이나 직접 라이선스를 확인한 사진으로 바꿔 주세요.
+사람이 나오는 사진 23장은 [Unsplash](https://unsplash.com)에서 무료 라이선스(Unsplash License, 상업적 사용 가능·출처 표기 의무 없음) 사진 중 동아시아인 모델 사진을 골라 자리에 맞게 잘라 넣었습니다. 유료 Unsplash+ 사진은 쓰지 않았습니다.
+
+- Unsplash는 모델의 국적을 표시하지 않기 때문에, 모든 모델이 한국인이라고 확인할 수는 없습니다. 'korean' 태그나 서울 촬영 정보가 있는 사진을 우선했지만, 촬영지가 서울로 확인된 사진은 룩북 01 한 장뿐입니다.
+- 실제 고객 사이트를 만들 때는 고객이 준 사진이나 초상권 동의를 받은 사진으로 바꿔 주세요.
+
+| 자리 | 파일 | 원본 |
+| --- | --- | --- |
+| 의류 · 첫 화면 큰 사진 | `sites/fashion/images/hero-1.jpg` | [unsplash.com/photos/FJ2QW7Mx2sE](https://unsplash.com/photos/FJ2QW7Mx2sE) |
+| 의류 · 첫 화면 작은 사진 | `sites/fashion/images/hero-2.jpg` | [unsplash.com/photos/DIrDxRpG9ws](https://unsplash.com/photos/DIrDxRpG9ws) |
+| 의류 · 룩북 01 | `sites/fashion/images/look-1.jpg` | [unsplash.com/photos/G7igXvBvftw](https://unsplash.com/photos/G7igXvBvftw) |
+| 의류 · 룩북 02 | `sites/fashion/images/look-2.jpg` | [unsplash.com/photos/aTeUYOtWpUQ](https://unsplash.com/photos/aTeUYOtWpUQ) |
+| 의류 · 룩북 03 | `sites/fashion/images/look-3.jpg` | [unsplash.com/photos/lOuS_kzJrW4](https://unsplash.com/photos/lOuS_kzJrW4) |
+| 의류 · 룩북 04 | `sites/fashion/images/look-4.jpg` | [unsplash.com/photos/zC2_c-qKJrA](https://unsplash.com/photos/zC2_c-qKJrA) |
+| 의류 · 룩북 05 | `sites/fashion/images/look-5.jpg` | [unsplash.com/photos/lrBcukd8B30](https://unsplash.com/photos/lrBcukd8B30) |
+| 의류 · 상품 1 | `sites/fashion/images/p1.jpg` | [unsplash.com/photos/3Xkms-gMvZg](https://unsplash.com/photos/3Xkms-gMvZg) |
+| 의류 · 상품 2 | `sites/fashion/images/p2.jpg` | [unsplash.com/photos/4-ygbBaMhVM](https://unsplash.com/photos/4-ygbBaMhVM) |
+| 의류 · 상품 3 | `sites/fashion/images/p3.jpg` | [unsplash.com/photos/_JAAQZ2wt5I](https://unsplash.com/photos/_JAAQZ2wt5I) |
+| 의류 · 상품 4 | `sites/fashion/images/p4.jpg` | [unsplash.com/photos/RR4RmQ-3cp0](https://unsplash.com/photos/RR4RmQ-3cp0) |
+| 의류 · 상품 5 | `sites/fashion/images/p5.jpg` | [unsplash.com/photos/gyekewtnt2U](https://unsplash.com/photos/gyekewtnt2U) |
+| 의류 · 상품 6 | `sites/fashion/images/p6.jpg` | [unsplash.com/photos/81Dy6tQJcMM](https://unsplash.com/photos/81Dy6tQJcMM) |
+| 의류 · 상품 7 | `sites/fashion/images/p7.jpg` | [unsplash.com/photos/g63EYnVJjiI](https://unsplash.com/photos/g63EYnVJjiI) |
+| 의류 · 상품 8 | `sites/fashion/images/p8.jpg` | [unsplash.com/photos/2F7w4MiVVjo](https://unsplash.com/photos/2F7w4MiVVjo) |
+| 의류 · 인스타그램 5 | `sites/fashion/images/insta-5.jpg` | [unsplash.com/photos/-1B_y4wGs-s](https://unsplash.com/photos/-1B_y4wGs-s) |
+| 치과 · 첫 화면 | `sites/dental/images/hero.jpg` | [unsplash.com/photos/ZoSb5J3jU28](https://unsplash.com/photos/ZoSb5J3jU28) |
+| 피부관리 · 첫 화면 | `sites/skin/images/hero.jpg` | [unsplash.com/photos/f2ar0ltTvaI](https://unsplash.com/photos/f2ar0ltTvaI) |
+| 필라테스 · 첫 화면 | `sites/pilates/images/hero.jpg` | [unsplash.com/photos/BucQCjOvDyM](https://unsplash.com/photos/BucQCjOvDyM) |
+| 헬스 · 첫 화면 | `sites/gym/images/hero.jpg` | [unsplash.com/photos/aJE9VGgtq3w](https://unsplash.com/photos/aJE9VGgtq3w) |
+| 헬스 · 바디프로필 프로그램 | `sites/gym/images/p-3.jpg` | [unsplash.com/photos/2CmtflAKcFs](https://unsplash.com/photos/2CmtflAKcFs) |
+| 법률 · 대표변호사 | `sites/law/images/lawyer-1.jpg` | [unsplash.com/photos/rN583GaPkRg](https://unsplash.com/photos/rN583GaPkRg) |
+| 법률 · 변호사 | `sites/law/images/lawyer-2.jpg` | [unsplash.com/photos/8Y7Mg9uKYbA](https://unsplash.com/photos/8Y7Mg9uKYbA) |
+
+나머지 음식·공간·소품 사진은 Unsplash·Pexels 사진을 쓴 공개 무료 템플릿 저장소(Colorlib 템플릿 등)에서 가져왔습니다.
 
 각 사이트의 `images` 폴더에 **같은 파일 이름으로 덮어쓰면** 코드 수정 없이 바로 바뀝니다.
 
