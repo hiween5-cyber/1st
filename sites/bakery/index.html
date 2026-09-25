@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>보늬 베이커리 | 망원동 동네 빵집</title>
+<meta name="description" content="망원동 보늬 베이커리. 18시간 저온 숙성 반죽으로 매일 아침 7시부터 빵을 굽습니다. 오늘의 굽는 시간과 시그니처 메뉴, 단체 주문을 안내합니다.">
+<meta property="og:title" content="보늬 베이커리 | 망원동 동네 빵집">
+<meta property="og:description" content="매일 아침 7시, 첫 빵이 나옵니다.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="../../assets/fonts/gowun-dodum/gowun-dodum.css">
+<link rel="stylesheet" href="../../assets/fonts/young-serif/young-serif.css">
+<link rel="stylesheet" href="../../assets/fonts/pretendard/pretendardvariable-dynamic-subset.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13.5 6.5L19 12l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="chestnut" viewBox="0 0 40 40"><path d="M20 5c3 3.5 13 8 13 18 0 7-5.8 12-13 12S7 30 7 23C7 13 17 8.5 20 5z" fill="currentColor"/><path d="M9.5 27c3 2.4 6.6 3.4 10.5 3.4S27.5 29.4 30.5 27" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".7"/></symbol>
+</svg>
+
+<a class="skip" href="#main">본문 바로가기</a>
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="logo" href="#top" aria-label="보늬 베이커리 홈">
+      <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><use href="#chestnut"/></svg>
+      <span class="logo-ko">보늬</span>
+      <span class="logo-en">bonui bakery</span>
+    </a>
+    <nav class="gnb" aria-label="주 메뉴">
+      <a href="#bake">굽는 시간</a>
+      <a href="#menu">메뉴</a>
+      <a href="#story">보늬 이야기</a>
+      <a href="#order">단체 주문</a>
+      <a href="#store">매장 안내</a>
+    </nav>
+    <a class="insta-link" href="#" aria-label="인스타그램"><svg><use href="#i-insta"/></svg></a>
+    <button class="menu-btn" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mnav"><svg><use href="#i-menu"/></svg></button>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="모바일 메뉴" hidden>
+    <a href="#bake">굽는 시간</a>
+    <a href="#menu">메뉴</a>
+    <a href="#story">보늬 이야기</a>
+    <a href="#order">단체 주문</a>
+    <a href="#store">매장 안내</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="hero-tag">망원동 · since 2019</p>
+        <h1>매일 아침 7시,<br>첫 빵이 나옵니다</h1>
+        <p class="lead">밤새 18시간 천천히 숙성한 반죽을 새벽 네 시부터 굽습니다. 그날 구운 빵은 그날만 팝니다.</p>
+        <div class="btn-row">
+          <a class="btn btn-brown" href="#bake">오늘의 굽는 시간</a>
+          <a class="btn btn-soft" href="#menu">메뉴 보기</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <figure class="hv-main"><img src="images/hero.jpg" alt="막 구워져 나온 소금빵이 가득 담긴 철판" width="1000" height="1200" fetchpriority="high"></figure>
+        <figure class="hv-sub"><img src="images/hero-2.jpg" alt="결이 살아 있는 크루아상 단면" width="600" height="600"></figure>
+        <p class="hv-note" data-now-baking>지금 매장에<br><b>소금빵</b>이 따끈해요</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bake" id="bake" aria-labelledby="bake-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="bake-title">오늘의 굽는 시간</h2>
+        <p>시간에 맞춰 오시면 오븐에서 막 나온 빵을 드실 수 있어요. 인기 빵은 한 시간 안에 품절되기도 합니다.</p>
+      </div>
+      <ol class="timeline">
+        <li data-at="0700" data-name="소금빵"><time>07:00</time><h3>소금빵 · 바게트</h3><p>오픈 전 첫 오븐</p></li>
+        <li data-at="0900" data-name="크루아상"><time>09:00</time><h3>크루아상 · 뺑오쇼콜라</h3><p>버터 결이 가장 살아 있을 때</p></li>
+        <li data-at="1100" data-name="우유 식빵"><time>11:00</time><h3>우유 식빵 · 밤 식빵</h3><p>점심 전 식빵 3종</p></li>
+        <li data-at="1300" data-name="휘낭시에"><time>13:00</time><h3>휘낭시에 · 마들렌</h3><p>오후 커피와 함께</p></li>
+        <li data-at="1500" data-name="무화과 캄파뉴"><time>15:00</time><h3>무화과 캄파뉴</h3><p>하루 20개 한정</p></li>
+        <li data-at="1700" data-name="소금빵"><time>17:00</time><h3>소금빵 두 번째 판</h3><p>퇴근길 마지막 오븐</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="menu" aria-labelledby="menu-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="menu-title">보늬의 시그니처</h2>
+        <p>모든 빵은 우리밀을 30% 섞은 반죽으로 만듭니다. 알레르기 정보는 매장에 비치된 표를 확인해 주세요.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="item">
+          <figure><img src="images/m-salt.jpg" alt="겉은 바삭하고 속은 촉촉한 소금빵" loading="lazy" width="700" height="700"><span class="item-badge">BEST</span></figure>
+          <div class="item-row"><h3>보늬 소금빵</h3><p class="price">3,200원</p></div>
+          <p>프랑스 AOP 발효 버터를 반죽 속에 말아 넣고 게랑드 소금을 올렸습니다.</p>
+        </article>
+        <article class="item">
+          <figure><img src="images/m-croissant.jpg" alt="27겹 결의 버터 크루아상" loading="lazy" width="700" height="700"></figure>
+          <div class="item-row"><h3>버터 크루아상</h3><p class="price">4,500원</p></div>
+          <p>사흘에 걸쳐 버터를 접어 27겹의 결을 만듭니다.</p>
+        </article>
+        <article class="item">
+          <figure><img src="images/m-chestnut.jpg" alt="보늬밤을 통째로 넣은 파운드 케이크" loading="lazy" width="700" height="700"><span class="item-badge item-badge-sig">보늬 한정</span></figure>
+          <div class="item-row"><h3>보늬밤 파운드</h3><p class="price">5,500원</p></div>
+          <p>속껍질째 조린 공주 밤을 통째로 넣었습니다. 가게 이름이 된 메뉴입니다.</p>
+        </article>
+        <article class="item">
+          <figure><img src="images/m-campagne.jpg" alt="무화과와 호두가 들어간 캄파뉴" loading="lazy" width="700" height="700"></figure>
+          <div class="item-row"><h3>무화과 캄파뉴</h3><p class="price">7,800원</p></div>
+          <p>천연 발효종에 반건조 무화과와 호두를 듬뿍 넣었습니다.</p>
+        </article>
+        <article class="item">
+          <figure><img src="images/m-bread.jpg" alt="결대로 찢어지는 우유 식빵" loading="lazy" width="700" height="700"></figure>
+          <div class="item-row"><h3>우유 식빵</h3><p class="price">6,500원</p></div>
+          <p>물 대신 우유로만 반죽해 결대로 부드럽게 찢어집니다.</p>
+        </article>
+        <article class="item">
+          <figure><img src="images/m-financier.jpg" alt="태운 버터 향의 휘낭시에" loading="lazy" width="700" height="700"></figure>
+          <div class="item-row"><h3>휘낭시에</h3><p class="price">3,000원</p></div>
+          <p>버터를 갈색이 될 때까지 태워 고소한 향을 냈습니다.</p>
+        </article>
+      </div>
+      <div class="drinks">
+        <h3>함께 마시기 좋은</h3>
+        <ul>
+          <li><span>아메리카노</span><b>4,500</b></li>
+          <li><span>카페 라떼</span><b>5,000</b></li>
+          <li><span>밤 라떼</span><b>5,800</b></li>
+          <li><span>얼그레이 밀크티</span><b>5,500</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="story" id="story" aria-labelledby="story-title">
+    <div class="container story-grid">
+      <figure class="story-photo"><img src="images/story.jpg" alt="새벽에 반죽을 성형하는 제빵사의 손" loading="lazy" width="900" height="1000"></figure>
+      <div class="story-copy">
+        <p class="story-word"><span>보늬</span> [명사] 밤이나 도토리 따위의 속껍질</p>
+        <h2 id="story-title">겉껍질을 벗겨도<br>남아 있는 한 겹처럼</h2>
+        <p>보늬는 밤의 속껍질을 부르는 순우리말입니다. 눈에 잘 띄지 않지만 밤의 맛을 지켜 주는 그 한 겹처럼, 매일 같은 자리에서 같은 맛을 지키는 빵집이 되고 싶어 이 이름을 붙였습니다.</p>
+        <ul class="facts">
+          <li><strong>18<small>시간</small></strong><span>저온 숙성</span></li>
+          <li><strong>30<small>%</small></strong><span>우리밀 배합</span></li>
+          <li><strong>0<small>개</small></strong><span>다음 날 판매하는 빵</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section order" id="order" aria-labelledby="order-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="order-title">선물 세트 · 단체 주문</h2>
+        <p>행사, 답례품, 회사 간식으로 주문하실 수 있습니다. 전화나 인스타그램 메시지로 문의해 주세요.</p>
+      </div>
+      <div class="order-grid">
+        <article class="order-card">
+          <figure><img src="images/gift.jpg" alt="리본으로 묶은 구움과자 선물 상자" loading="lazy" width="800" height="600"></figure>
+          <div class="order-body">
+            <h3>구움과자 선물 상자</h3>
+            <p>휘낭시에·마들렌·보늬밤 파운드를 골고루 담았습니다. 쇼핑백과 메시지 카드를 함께 드립니다.</p>
+            <dl>
+              <div><dt>8구</dt><dd>28,000원</dd></div>
+              <div><dt>12구</dt><dd>39,000원</dd></div>
+            </dl>
+          </div>
+        </article>
+        <article class="order-card">
+          <figure><img src="images/catering.jpg" alt="행사용으로 포장된 미니 소금빵" loading="lazy" width="800" height="600"></figure>
+          <div class="order-body">
+            <h3>단체 주문</h3>
+            <p>개별 포장한 미니 소금빵, 샌드위치, 구움과자로 구성합니다. 원하시는 예산에 맞춰 조합해 드립니다.</p>
+            <dl>
+              <div><dt>주문 마감</dt><dd>수령 3일 전</dd></div>
+              <div><dt>50개 이상</dt><dd>10% 할인</dd></div>
+            </dl>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section insta" aria-labelledby="insta-title">
+    <div class="container">
+      <div class="insta-head">
+        <h2 id="insta-title">@bonui.bakery</h2>
+        <a class="text-link" href="#">품절 소식은 인스타그램에서 <svg><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="insta-grid">
+        <a href="#"><img src="images/insta-1.jpg" alt="인스타그램 게시물: 오늘의 첫 빵" loading="lazy" width="500" height="500"></a>
+        <a href="#"><img src="images/insta-2.jpg" alt="인스타그램 게시물: 진열대" loading="lazy" width="500" height="500"></a>
+        <a href="#"><img src="images/insta-3.jpg" alt="인스타그램 게시물: 커피와 크루아상" loading="lazy" width="500" height="500"></a>
+        <a href="#"><img src="images/insta-4.jpg" alt="인스타그램 게시물: 반죽 성형" loading="lazy" width="500" height="500"></a>
+        <a href="#"><img src="images/insta-5.jpg" alt="인스타그램 게시물: 선물 상자" loading="lazy" width="500" height="500"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="store" id="store" aria-labelledby="store-title">
+    <div class="container store-grid">
+      <h2 id="store-title">매장 안내</h2>
+      <dl>
+        <div><dt>영업시간</dt><dd>08:00 – 20:00<br><span class="off">매주 화요일 휴무</span> · 빵이 모두 팔리면 일찍 닫습니다</dd></div>
+        <div><dt>주소</dt><dd>서울특별시 마포구 망원로 00, 1층<br>망원역 2번 출구 도보 7분</dd></div>
+        <div><dt>좌석</dt><dd>매장 좌석 12석 · 반려견 동반 테라스 4석</dd></div>
+        <div><dt>문의</dt><dd>02-1234-5678 · 인스타그램 DM</dd></div>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p class="footer-logo"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#chestnut"/></svg>보늬 베이커리</p>
+    <p class="biz"><span>상호 보늬 베이커리</span><span>대표 오하진</span><span>사업자등록번호 123-45-67890</span><span>주소 서울특별시 마포구 망원로 00, 1층</span><span>전화 02-1234-5678</span></p>
+    <p class="copy">© 2026 bonui bakery. All rights reserved.</p>
+    <p class="demo-note">본 사이트는 홈페이지 제작 포트폴리오용으로 만든 가상의 매장 사이트입니다.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
