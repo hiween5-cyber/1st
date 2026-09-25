@@ -277,3 +277,9 @@ h3 { color: var(--ink); letter-spacing: -0.025em; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* teacher cards without photos */
+.teacher, .teacher-grid .teacher { display: flex; flex-direction: column; gap: 12px; border: 1px solid var(--line); border-radius: 20px; padding: 28px 26px 30px; background: #fff; }
+.teacher h3 { font-size: 26px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.teacher::before { content: ""; width: 32px; height: 3px; border-radius: 3px; background: var(--olive); margin-bottom: 6px; }
+@media (max-width: 900px) { .teacher-grid { gap: 14px; } }

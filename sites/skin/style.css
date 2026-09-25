@@ -265,3 +265,16 @@ h3 { color: var(--ink); font-weight: 600; letter-spacing: -0.02em; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* director without photo, two-image space */
+.director-grid { grid-template-columns: minmax(0, 1fr); max-width: 880px; }
+.director-copy { border-top: 1px solid var(--ink); padding-top: 40px; }
+.space-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.space-grid figure:nth-child(2) { margin-top: 64px; }
+.menu-intro { position: sticky; top: calc(var(--header-h) + 24px); }
+@media (max-width: 860px) {
+  .space-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; margin-inline: 0; padding-inline: 0; }
+  .space-grid figure:nth-child(2) { margin-top: 32px; }
+  .menu-intro { position: static; }
+  .director-copy { padding-top: 28px; }
+}
