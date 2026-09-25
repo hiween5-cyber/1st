@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>온하 ONHA | 제주 애월 부티크 스테이</title>
+<meta name="description" content="애월 해안도로 끝, 네 개의 객실만 있는 오션뷰 부티크 스테이 온하. 인피니티 풀과 제주 조식을 준비했습니다.">
+<meta property="og:title" content="온하 ONHA | 제주 애월 부티크 스테이">
+<meta property="og:description" content="바다가 가장 먼저 인사하는 곳.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="../../assets/fonts/hahmlet/hahmlet.css">
+<link rel="stylesheet" href="../../assets/fonts/cormorant/cormorant.css">
+<link rel="stylesheet" href="../../assets/fonts/pretendard/pretendardvariable-dynamic-subset.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13.5 6.5L19 12l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<a class="skip" href="#main">본문 바로가기</a>
+
+<header class="header">
+  <div class="container header-inner">
+    <a class="logo" href="#top">ONHA<small>온하 · Aewol Jeju</small></a>
+    <nav class="gnb" aria-label="주 메뉴">
+      <a href="#about">스테이</a>
+      <a href="#rooms">객실</a>
+      <a href="#facilities">부대시설</a>
+      <a href="#info">이용 안내</a>
+      <a href="#location">오시는 길</a>
+    </nav>
+    <a class="btn btn-dark btn-sm header-cta" href="#booking">예약하기</a>
+    <button class="menu-btn" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mnav"><svg><use href="#i-menu"/></svg></button>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="모바일 메뉴" hidden>
+    <a href="#about">스테이</a><a href="#rooms">객실</a><a href="#facilities">부대시설</a><a href="#info">이용 안내</a><a href="#location">오시는 길</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <figure class="hero-media"><img src="images/hero.jpg" alt="바다를 향해 열린 온하의 풀" width="1600" height="900" fetchpriority="high"></figure>
+    <div class="container hero-copy">
+      <p class="hero-place">Aewol, Jeju</p>
+      <h1>바다가 가장 먼저<br>인사하는 곳</h1>
+      <p>애월 해안도로 끝, 네 개의 객실만 있는 작은 스테이</p>
+    </div>
+  </section>
+
+  <section class="booking" id="booking" aria-label="예약 조회">
+    <div class="container">
+      <form class="booking-bar" novalidate>
+        <div class="bf"><label for="b-in">체크인</label><input id="b-in" type="date" required></div>
+        <div class="bf"><label for="b-out">체크아웃</label><input id="b-out" type="date" required></div>
+        <div class="bf"><label for="b-room">객실</label>
+          <select id="b-room"><option>오름 · 스탠다드</option><option>윤슬 · 오션 트윈</option><option>온하 스위트</option></select>
+        </div>
+        <div class="bf"><label for="b-guest">인원</label>
+          <select id="b-guest"><option>성인 2명</option><option>성인 2명 · 아동 1명</option><option>성인 3명</option><option>성인 4명</option></select>
+        </div>
+        <button class="btn btn-dark" type="submit">예약 문의</button>
+        <p class="booking-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="about" id="about" aria-labelledby="about-title">
+    <div class="container about-grid">
+      <div class="about-copy">
+        <p class="eyebrow">The Stay</p>
+        <h2 id="about-title">아무것도 하지 않아도<br>충분한 하루</h2>
+        <p>모든 객실의 창은 바다를 향해 있습니다. 필요한 것은 미리 채워 두고, 부르실 때만 찾아뵙습니다. 파도 소리와 함께 늦게 일어나는 아침, 온하가 준비한 휴식은 그것이 전부입니다.</p>
+        <dl class="about-facts">
+          <div><dt>4</dt><dd>객실</dd></div>
+          <div><dt>100%</dt><dd>오션뷰</dd></div>
+          <div><dt>35분</dt><dd>제주공항에서</dd></div>
+        </dl>
+      </div>
+      <figure class="about-media"><img src="images/intro.jpg" alt="바다 옆 선베드가 놓인 풀 데크" loading="lazy" width="1000" height="1200"></figure>
+    </div>
+  </section>
+
+  <section class="section" id="rooms" aria-labelledby="rooms-title">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Rooms</p>
+        <h2 id="rooms-title">객실</h2>
+      </div>
+      <div class="room-grid">
+        <article class="room">
+          <figure><img src="images/room-a.jpg" alt="밝은 톤의 오름 객실" loading="lazy" width="800" height="560"></figure>
+          <div class="room-body">
+            <p class="room-en">Oreum</p>
+            <h3>오름 <span>스탠다드 더블</span></h3>
+            <ul class="room-spec"><li>33㎡</li><li>기준 2인 · 최대 2인</li><li>퀸 베드</li></ul>
+            <p class="room-price"><strong>220,000원</strong> ~ / 1박</p>
+          </div>
+        </article>
+        <article class="room">
+          <figure><img src="images/room-b.jpg" alt="창가에 벤치가 놓인 윤슬 객실" loading="lazy" width="800" height="560"></figure>
+          <div class="room-body">
+            <p class="room-en">Yunseul</p>
+            <h3>윤슬 <span>오션 트윈</span></h3>
+            <ul class="room-spec"><li>40㎡</li><li>기준 2인 · 최대 3인</li><li>킹 베드 + 데이베드</li></ul>
+            <p class="room-price"><strong>280,000원</strong> ~ / 1박</p>
+          </div>
+        </article>
+        <article class="room">
+          <figure><img src="images/room-c.jpg" alt="개별 거실이 딸린 온하 스위트" loading="lazy" width="800" height="560"></figure>
+          <div class="room-body">
+            <p class="room-en">Onha Suite</p>
+            <h3>온하 스위트 <span>개별 자쿠지</span></h3>
+            <ul class="room-spec"><li>66㎡</li><li>기준 2인 · 최대 4인</li><li>킹 베드 2</li></ul>
+            <p class="room-price"><strong>420,000원</strong> ~ / 1박</p>
+          </div>
+        </article>
+      </div>
+      <p class="note">주말(금·토)과 성수기(7월 15일–8월 20일)에는 요금이 달라집니다. 기준 인원 초과 시 1인 30,000원이 추가됩니다.</p>
+    </div>
+  </section>
+
+  <section class="section facilities" id="facilities" aria-labelledby="fac-title">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Facilities</p>
+        <h2 id="fac-title">머무는 동안 누리실 것들</h2>
+      </div>
+      <div class="fac-grid">
+        <article>
+          <figure><img src="images/f-pool.jpg" alt="바다와 이어지는 인피니티 풀" loading="lazy" width="800" height="600"></figure>
+          <h3>인피니티 풀</h3>
+          <p>수평선과 맞닿은 온수 풀. 5월부터 10월까지, 매일 09:00–20:00 운영합니다.</p>
+        </article>
+        <article>
+          <figure><img src="images/f-breakfast.jpg" alt="제철 재료로 차린 조식 한 상" loading="lazy" width="800" height="600"></figure>
+          <h3>제주 조식</h3>
+          <p>동문시장에서 들인 제철 재료로 차린 한 상. 08:00–10:00, 1인 25,000원입니다.</p>
+        </article>
+        <article>
+          <figure><img src="images/f-lounge.jpg" alt="해 질 무렵 불이 켜진 라운지" loading="lazy" width="800" height="600"></figure>
+          <h3>선셋 라운지</h3>
+          <p>해 질 무렵이 가장 아름다운 공간. 음료와 책을 준비해 두었습니다. 24시간 이용 가능합니다.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" aria-label="갤러리">
+    <div class="gallery-grid">
+      <img src="images/g-1.jpg" alt="햇살이 드는 객실" loading="lazy" width="800" height="800">
+      <img src="images/g-2.jpg" alt="침대 옆 조명" loading="lazy" width="800" height="800">
+      <img src="images/g-3.jpg" alt="애월 앞바다의 해안 절벽" loading="lazy" width="800" height="800">
+      <img src="images/g-4.jpg" alt="위에서 내려다본 해변" loading="lazy" width="800" height="800">
+    </div>
+  </section>
+
+  <section class="section" id="info" aria-labelledby="info-title">
+    <div class="container info-grid">
+      <div>
+        <p class="eyebrow">Information</p>
+        <h2 id="info-title">이용 안내</h2>
+        <dl class="info-list">
+          <div><dt>체크인</dt><dd>15:00 이후</dd></div>
+          <div><dt>체크아웃</dt><dd>11:00 이전</dd></div>
+          <div><dt>주차</dt><dd>객실당 1대, 무료</dd></div>
+          <div><dt>유의사항</dt><dd>전 객실 금연 · 반려동물 동반 불가</dd></div>
+        </dl>
+      </div>
+      <div>
+        <h3 class="refund-title">환불 규정</h3>
+        <table class="refund">
+          <thead><tr><th scope="col">취소 시점</th><th scope="col">환불 금액</th></tr></thead>
+          <tbody>
+            <tr><td>이용일 7일 전까지</td><td>100%</td></tr>
+            <tr><td>이용일 5–6일 전</td><td>70%</td></tr>
+            <tr><td>이용일 3–4일 전</td><td>50%</td></tr>
+            <tr><td>이용일 2일 전 – 당일</td><td>환불 불가</td></tr>
+          </tbody>
+        </table>
+        <p class="note">기상 악화로 항공편이 결항된 경우, 결항 확인서를 보내 주시면 전액 환불해 드립니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="location" id="location" aria-labelledby="loc-title">
+    <div class="container loc-grid">
+      <h2 id="loc-title">오시는 길</h2>
+      <dl>
+        <div><dt>주소</dt><dd>제주특별자치도 제주시 애월읍 애월해안로 00</dd></div>
+        <div><dt>자동차</dt><dd>제주국제공항에서 해안도로 방면 35분</dd></div>
+        <div><dt>문의</dt><dd>064-123-4567 · 카카오톡 @온하스테이</dd></div>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p class="footer-logo">ONHA</p>
+    <p class="biz"><span>상호 온하</span><span>대표 강서하</span><span>사업자등록번호 123-45-67890</span><span>농어촌민박사업 신고 제2026-00호</span><span>주소 제주특별자치도 제주시 애월읍 애월해안로 00</span></p>
+    <p class="copy">© 2026 ONHA. All rights reserved.</p>
+    <p class="demo-note">본 사이트는 홈페이지 제작 포트폴리오용으로 만든 가상의 숙소 사이트입니다.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

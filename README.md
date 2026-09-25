@@ -1,6 +1,6 @@
 # 홈페이지 제작 포트폴리오
 
-크몽 상세페이지 홍보용으로 만든 업종별 반응형 홈페이지 샘플 6종입니다.
+크몽 상세페이지 홍보용으로 만든 업종별 반응형 홈페이지 샘플 10종입니다.
 모든 사이트는 PC, 태블릿, 모바일 화면에 맞게 자동으로 배치가 바뀌며, 흰색 배경 기반의 라이트 모드로만 제작했습니다.
 
 | 번호 | 업종 | 사이트 | 폴더 | 글꼴 |
@@ -11,8 +11,12 @@
 | 04 | 필라테스 | 오크 필라테스 | `sites/pilates` | Bricolage Grotesque + Pretendard |
 | 05 | 법률사무소 | 법률사무소 한결 | `sites/law` | Noto Serif KR + Pretendard |
 | 06 | 베이커리 카페 | 보늬 베이커리 | `sites/bakery` | 고운돋움 + Young Serif + Pretendard |
+| 07 | 숙박 | 온하 ONHA | `sites/stay` | 함렛 + Cormorant Garamond + Pretendard |
+| 08 | 레스토랑 | 오월 OWOL | `sites/bistro` | Instrument Serif + Pretendard |
+| 09 | 헬스·PT | 포지 FORGE | `sites/gym` | Anton + Pretendard |
+| 10 | 인테리어 | 여백 공간디자인 | `sites/interior` | IBM Plex Sans KR + Archivo |
 
-`index.html`은 여섯 사이트를 한 번에 보여 주는 포트폴리오 메인 페이지입니다. 각 샘플을 PC 화면과 휴대폰 모양 틀에 넣어 보여 주므로 크몽 상세페이지용 캡처로 쓰기 좋습니다.
+`index.html`은 열 개 사이트를 한 번에 보여 주는 포트폴리오 메인 페이지입니다. 각 샘플을 PC 화면과 휴대폰 모양 틀에 넣어 보여 주므로 크몽 상세페이지용 캡처로 쓰기 좋습니다.
 
 ## 내 컴퓨터에서 보는 방법
 
