@@ -36,31 +36,32 @@
 
 ## 사진
 
-사람이 나오는 사진 23장은 [Unsplash](https://unsplash.com)에서 무료 라이선스(Unsplash License, 상업적 사용 가능·출처 표기 의무 없음) 사진 중 동아시아인 모델 사진을 골라 자리에 맞게 잘라 넣었습니다. 유료 Unsplash+ 사진은 쓰지 않았습니다.
+사람이 나오는 사진 24장은 [Unsplash](https://unsplash.com)에서 무료 라이선스(Unsplash License, 상업적 사용 가능·출처 표기 의무 없음) 사진을 골라 자리에 맞게 잘라 넣었습니다. 유료 Unsplash+ 사진은 쓰지 않았습니다.
 
-- Unsplash는 모델의 국적을 표시하지 않기 때문에, 모든 모델이 한국인이라고 확인할 수는 없습니다. 'korean' 태그나 서울 촬영 정보가 있는 사진을 우선했지만, 촬영지가 서울로 확인된 사진은 룩북 01 한 장뿐입니다.
+- 업종과 맞는 장면(의류는 포즈를 취한 모델, 피부관리는 페이셜 관리 장면)을 우선했습니다. Unsplash는 모델 국적을 표시하지 않아 모든 모델이 한국인이라고 확인할 수는 없고, 피부관리 사진 2장은 동아시아인 모델 사진을 찾지 못해 서양인 모델 사진입니다.
 - 실제 고객 사이트를 만들 때는 고객이 준 사진이나 초상권 동의를 받은 사진으로 바꿔 주세요.
 
 | 자리 | 파일 | 원본 |
 | --- | --- | --- |
-| 의류 · 첫 화면 큰 사진 | `sites/fashion/images/hero-1.jpg` | [unsplash.com/photos/FJ2QW7Mx2sE](https://unsplash.com/photos/FJ2QW7Mx2sE) |
-| 의류 · 첫 화면 작은 사진 | `sites/fashion/images/hero-2.jpg` | [unsplash.com/photos/DIrDxRpG9ws](https://unsplash.com/photos/DIrDxRpG9ws) |
-| 의류 · 룩북 01 | `sites/fashion/images/look-1.jpg` | [unsplash.com/photos/G7igXvBvftw](https://unsplash.com/photos/G7igXvBvftw) |
-| 의류 · 룩북 02 | `sites/fashion/images/look-2.jpg` | [unsplash.com/photos/aTeUYOtWpUQ](https://unsplash.com/photos/aTeUYOtWpUQ) |
-| 의류 · 룩북 03 | `sites/fashion/images/look-3.jpg` | [unsplash.com/photos/lOuS_kzJrW4](https://unsplash.com/photos/lOuS_kzJrW4) |
-| 의류 · 룩북 04 | `sites/fashion/images/look-4.jpg` | [unsplash.com/photos/zC2_c-qKJrA](https://unsplash.com/photos/zC2_c-qKJrA) |
-| 의류 · 룩북 05 | `sites/fashion/images/look-5.jpg` | [unsplash.com/photos/lrBcukd8B30](https://unsplash.com/photos/lrBcukd8B30) |
+| 의류 · 첫 화면 큰 사진 | `sites/fashion/images/hero-1.jpg` | [unsplash.com/photos/_DaC1EfZW2Y](https://unsplash.com/photos/_DaC1EfZW2Y) |
+| 의류 · 첫 화면 작은 사진 | `sites/fashion/images/hero-2.jpg` | [unsplash.com/photos/hUOpRJoyxP8](https://unsplash.com/photos/hUOpRJoyxP8) |
+| 의류 · 룩북 01 | `sites/fashion/images/look-1.jpg` | [unsplash.com/photos/61G2j_WYUoE](https://unsplash.com/photos/61G2j_WYUoE) |
+| 의류 · 룩북 02 | `sites/fashion/images/look-2.jpg` | [unsplash.com/photos/_KvxuaPl6-s](https://unsplash.com/photos/_KvxuaPl6-s) |
+| 의류 · 룩북 03 | `sites/fashion/images/look-3.jpg` | [unsplash.com/photos/O2oLQ7UKmbc](https://unsplash.com/photos/O2oLQ7UKmbc) |
+| 의류 · 룩북 04 | `sites/fashion/images/look-4.jpg` | [unsplash.com/photos/tS7MgZRFJhI](https://unsplash.com/photos/tS7MgZRFJhI) |
+| 의류 · 룩북 05 | `sites/fashion/images/look-5.jpg` | [unsplash.com/photos/3Lw5sK-eLE8](https://unsplash.com/photos/3Lw5sK-eLE8) |
 | 의류 · 상품 1 | `sites/fashion/images/p1.jpg` | [unsplash.com/photos/3Xkms-gMvZg](https://unsplash.com/photos/3Xkms-gMvZg) |
 | 의류 · 상품 2 | `sites/fashion/images/p2.jpg` | [unsplash.com/photos/4-ygbBaMhVM](https://unsplash.com/photos/4-ygbBaMhVM) |
 | 의류 · 상품 3 | `sites/fashion/images/p3.jpg` | [unsplash.com/photos/_JAAQZ2wt5I](https://unsplash.com/photos/_JAAQZ2wt5I) |
 | 의류 · 상품 4 | `sites/fashion/images/p4.jpg` | [unsplash.com/photos/RR4RmQ-3cp0](https://unsplash.com/photos/RR4RmQ-3cp0) |
-| 의류 · 상품 5 | `sites/fashion/images/p5.jpg` | [unsplash.com/photos/gyekewtnt2U](https://unsplash.com/photos/gyekewtnt2U) |
+| 의류 · 상품 5 | `sites/fashion/images/p5.jpg` | [unsplash.com/photos/EWGanntwIwk](https://unsplash.com/photos/EWGanntwIwk) |
 | 의류 · 상품 6 | `sites/fashion/images/p6.jpg` | [unsplash.com/photos/81Dy6tQJcMM](https://unsplash.com/photos/81Dy6tQJcMM) |
 | 의류 · 상품 7 | `sites/fashion/images/p7.jpg` | [unsplash.com/photos/g63EYnVJjiI](https://unsplash.com/photos/g63EYnVJjiI) |
-| 의류 · 상품 8 | `sites/fashion/images/p8.jpg` | [unsplash.com/photos/2F7w4MiVVjo](https://unsplash.com/photos/2F7w4MiVVjo) |
-| 의류 · 인스타그램 5 | `sites/fashion/images/insta-5.jpg` | [unsplash.com/photos/-1B_y4wGs-s](https://unsplash.com/photos/-1B_y4wGs-s) |
+| 의류 · 상품 8 | `sites/fashion/images/p8.jpg` | [unsplash.com/photos/DSXoWP-VKj8](https://unsplash.com/photos/DSXoWP-VKj8) |
+| 의류 · 인스타그램 5 | `sites/fashion/images/insta-5.jpg` | [unsplash.com/photos/hbQ5fHbpbXw](https://unsplash.com/photos/hbQ5fHbpbXw) |
 | 치과 · 첫 화면 | `sites/dental/images/hero.jpg` | [unsplash.com/photos/ZoSb5J3jU28](https://unsplash.com/photos/ZoSb5J3jU28) |
-| 피부관리 · 첫 화면 | `sites/skin/images/hero.jpg` | [unsplash.com/photos/f2ar0ltTvaI](https://unsplash.com/photos/f2ar0ltTvaI) |
+| 피부관리 · 첫 화면 | `sites/skin/images/hero.jpg` | [unsplash.com/photos/u93nTfWqR9w](https://unsplash.com/photos/u93nTfWqR9w) |
+| 피부관리 · 1인 관리실 | `sites/skin/images/space-1.jpg` | [unsplash.com/photos/16mHHrY3PUk](https://unsplash.com/photos/16mHHrY3PUk) |
 | 필라테스 · 첫 화면 | `sites/pilates/images/hero.jpg` | [unsplash.com/photos/BucQCjOvDyM](https://unsplash.com/photos/BucQCjOvDyM) |
 | 헬스 · 첫 화면 | `sites/gym/images/hero.jpg` | [unsplash.com/photos/aJE9VGgtq3w](https://unsplash.com/photos/aJE9VGgtq3w) |
 | 헬스 · 바디프로필 프로그램 | `sites/gym/images/p-3.jpg` | [unsplash.com/photos/2CmtflAKcFs](https://unsplash.com/photos/2CmtflAKcFs) |
